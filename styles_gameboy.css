@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #111;
+}
+
+.gameBoyBody {
+    background-color: #D3D3D3;
+    position: relative;
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px 15px 40px 40px;
+}
+
+.screenBorder {
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 5px 5px 10px 10px;
+}
+
+.battery {
+    background-color: red;
+    box-shadow: 0 0 10px 2px red;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+}
+
+.screen {
+    background-color: #BDB76B;
+    box-shadow: inset 0 0 8px green;
+    position: relative;
+    margin: 30px;
+    height: 140px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px; 
+}
+
+.directionalPad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.verticalLine {
+    position: fixed;
+    height: 70px;
+    width: 20px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.HorizontalLine{
+    position: fixed;
+    height: 20px;
+    width: 70px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.redbuttons {
+    display: inline-flex;
+}
+
+.A-Button {
+    color:#999999;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #a81515;
+    box-shadow: inset 0 0 4px darkred;
+}
+
+
+.B-Button {
+    color:#999999;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 10px;
+    width: 10px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #a81515;
+    box-shadow: inset 0 0 4px darkred;
+}
+
+.start-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+} 
+
+.start {
+    border-radius: 50px;
+    padding: 3px;
+    margin: 5px;
+    background-color: grey;
+}
+
+.select {
+    border-radius: 50px;
+    padding: 3px;
+    margin: 5px;
+    background-color: grey;
+}
+
+
+.colourPicker {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 40px;
+    border: 5px solid black;
+    border-radius: 8px;
+    background-color: #333;
+}
+
+.colourPicker ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 10px;
+    font-family: poppins, sans-serif;
+}
+
+
+.yellow {
+    color: yellow;
+    cursor: pointer;
+}
+.red {
+    color: crimson;
+    cursor: pointer;
+}
+.blue {
+    color: #4dd2ff;
+    cursor: pointer;
+}
+.lime {
+    color: #40ff00;
+    cursor: pointer;
+}
+.orange {
+    color: #ff6600;
+    cursor: pointer;
+}
+.purple {
+    color: #d966ff;
+    cursor: pointer;
+}
+
+.default {
+    color: #D3D3D3;
+    cursor: pointer;
+}
+
+.newBodyColorYellow {
+    background-color: yellow;
+}
+
+.newBodyColorRed {
+    background-color: crimson;
+}
+
+.newBodyColorblue {
+    background-color: #4dd2ff;
+}
+
+.newBodyColorLime {
+    background-color: #40ff00;
+}
+
+.newBodyColorOrange {
+    background-color: #ff6600;
+}
+
+.newBodyColorPurple {
+    background-color: #d966ff;
+}
+
+.newBodyColorDefault {
+    background-color: #D3D3D3;
+}
